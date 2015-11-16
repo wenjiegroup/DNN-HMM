@@ -1,0 +1,4 @@
+Because the UW Repli-seq data are relatively sligtly big, here we don't provide them redundantly and the raw UW Repli-seq data can be downloaded from http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq/.
+You can download the '.bigWig' files of six cell cycle fractions (G1/G1b, S1, S2, S3, S4, G2) and transform them from .bigWig format into .wig format with the 'bigWigToWig' at current directory.
+Thus, we prepare well the raw UW Repli-seq data, which will be processed into the format used by the DHH-HMM and other algorithms.
+To run all the scripts without error, you need at least prepare well the files of the six cell cycle fractions (G1/G1b, S1, S2, S3, S4, G2) of Replicate 1 of Bj cells, for the manual annotations of training and test sets are made on Replicate 1 of Bj cells.
