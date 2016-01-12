@@ -1,5 +1,9 @@
 This directory contains all the Perl scripts and MATLAB codes we writed for the identification of replication domains in our paper. So to run them ,first you should have Perl and MATLAB installed on your computer. The version of Perl we used is v5.14.2 and MATLAB is MATLAB 8.2(R2013b).
 
+Please cite the following reference for our DNN-HMM algorithm:
+
+Liu F, Ren C, Li H, et al. De novo Identification of replication-timing domains in the human genome by deep learning[J]. Bioinformatics, 2015.
+
 
 ------------------------------
 In order to save space, we don't provide the raw data and temporary results. However, we save some of results in the corresponding directories for your quick look.
